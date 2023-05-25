@@ -1,0 +1,75 @@
+<deployment-project plugin="plugin.apptool" plugin-version="1.0">
+  <configuration build-checksum="2371280062" file="C:\Users\ortizo\Desktop\GitHub\big brain time\Brain Visualization Tool.prj" location="C:\Users\ortizo\Desktop\GitHub\big brain time" name="Brain Visualization Tool" target="target.mlapps" target-name="Package App">
+    <param.appname>Brain Visualization Tool</param.appname>
+    <param.authnamewatermark>Oscar Ortiz Angulo</param.authnamewatermark>
+    <param.email>oscar.ortiz.angulo@gmail.com</param.email>
+    <param.company />
+    <param.icon />
+    <param.icons />
+    <param.summary>Visualize time and frequency features of epoched EEG data</param.summary>
+    <param.description>Tool to visualize epoched data in the time frequency domain. Functionality at this point includes:
+
+- Time domain peak identification and extraction
+- Time frequency decomposition using complex wavelet transform
+- Extraction of ROIs of time frequency decomposition
+- Experimental: Wavelet filter using non-parametric statistic testing
+
+Requirements:
+- Matlab 2022 or higher
+- EEGLAB
+
+Can be installed by downloading the current packaged "Brain Visualization Tool.mlappinstall" app and following this tutorial (https://www.mathworks.com/videos/packaging-and-installing-matlab-apps-101563.html)</param.description>
+    <param.screenshot>C:\Users\ortizo\AppData\Local\Temp\tp99d42ed6_9059_47b5_aa2d_8e9898b7403d.png</param.screenshot>
+    <param.version>1.0</param.version>
+    <param.products.name />
+    <param.products.id />
+    <param.products.version />
+    <param.platforms />
+    <param.output>${PROJECT_ROOT}</param.output>
+    <param.guid>c70ba6d3-9375-4e6a-9c8a-66322203e1b6</param.guid>
+    <unset>
+      <param.company />
+      <param.icon />
+      <param.icons />
+      <param.version />
+      <param.products.name />
+      <param.products.id />
+      <param.products.version />
+      <param.platforms />
+      <param.output />
+    </unset>
+    <fileset.main>
+      <file>${PROJECT_ROOT}\brain_vis_tool_2.mlapp</file>
+    </fileset.main>
+    <fileset.depfun>
+      <file>${PROJECT_ROOT}\logo.jpg</file>
+      <file>${PROJECT_ROOT}\logoo_light_square.jpg</file>
+      <file>${PROJECT_ROOT}\new_color_map_2.mat</file>
+    </fileset.depfun>
+    <fileset.resources />
+    <fileset.package />
+    <build-deliverables>
+      <file location="C:\Users\ortizo\Desktop\GitHub" name="big brain time" optional="false">C:\Users\ortizo\Desktop\GitHub\big brain time</file>
+    </build-deliverables>
+    <workflow />
+    <matlab>
+      <root>C:\Program Files\MATLAB\R2022a</root>
+      <toolboxes />
+    </matlab>
+    <platform>
+      <unix>false</unix>
+      <mac>false</mac>
+      <windows>true</windows>
+      <win2k>false</win2k>
+      <winxp>false</winxp>
+      <vista>false</vista>
+      <linux>false</linux>
+      <solaris>false</solaris>
+      <osver>10.0</osver>
+      <os32>false</os32>
+      <os64>true</os64>
+      <arch>win64</arch>
+      <matlab>true</matlab>
+    </platform>
+  </configuration>
+</deployment-project>
