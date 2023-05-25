@@ -1,4 +1,4 @@
-# Brain-Visualization-Tool
+# EEG-Brain-Visualization-Tool
 ![logo](https://github.com/ortizo-117/Brain-Visualization-Tool/assets/71515296/7f33a48d-122b-4e8b-837b-eb85488261e5)
 
 Tool to visualize epoched data in the time frequency domain. Functionality at this point includes:
