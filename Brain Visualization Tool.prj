@@ -1,5 +1,5 @@
 <deployment-project plugin="plugin.apptool" plugin-version="1.0">
-  <configuration build-checksum="4288434918" file="Z:\30_Oscar_Ortiz\GitHub\BigBrainTime\Brain Visualization Tool.prj" location="Z:\30_Oscar_Ortiz\GitHub\BigBrainTime" name="Brain Visualization Tool" target="target.mlapps" target-name="Package App">
+  <configuration build-checksum="590495643" file="Z:\30_Oscar_Ortiz\GitHub\bigbrain\Brain Visualization Tool.prj" location="Z:\30_Oscar_Ortiz\GitHub\bigbrain" name="Brain Visualization Tool" target="target.mlapps" target-name="Package App">
     <param.appname>Brain Visualization Tool</param.appname>
     <param.authnamewatermark>Oscar Ortiz Angulo</param.authnamewatermark>
     <param.email>oscar.ortiz.angulo@gmail.com</param.email>
@@ -19,8 +19,8 @@ Requirements:
 - EEGLAB
 
 Can be installed by downloading the current packaged "Brain Visualization Tool.mlappinstall" app and following this tutorial (https://www.mathworks.com/videos/packaging-and-installing-matlab-apps-101563.html)</param.description>
-    <param.screenshot>C:\Users\ortizo\AppData\Local\Temp\tpce0c4a46_3dc4_4f8c_b34e_83b9ebb8cd52.png</param.screenshot>
-    <param.version>0.03</param.version>
+    <param.screenshot>C:\Users\ortizo\AppData\Local\Temp\tp964182a7_b5de_479b_af68_0e471cb5b686.png</param.screenshot>
+    <param.version>0.04</param.version>
     <param.products.name />
     <param.products.id />
     <param.products.version />
@@ -747,7 +747,7 @@ Can be installed by downloading the current packaged "Brain Visualization Tool.m
     <fileset.resources />
     <fileset.package />
     <build-deliverables>
-      <file location="Z:\30_Oscar_Ortiz\GitHub" name="BigBrainTime" optional="false">Z:\30_Oscar_Ortiz\GitHub\BigBrainTime</file>
+      <file location="Z:\30_Oscar_Ortiz\GitHub" name="bigbrain" optional="false">Z:\30_Oscar_Ortiz\GitHub\bigbrain</file>
     </build-deliverables>
     <workflow />
     <matlab>
