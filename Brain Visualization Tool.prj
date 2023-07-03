@@ -1,11 +1,15 @@
 <deployment-project plugin="plugin.apptool" plugin-version="1.0">
-  <configuration build-checksum="590495643" file="Z:\30_Oscar_Ortiz\GitHub\bigbrain\Brain Visualization Tool.prj" location="Z:\30_Oscar_Ortiz\GitHub\bigbrain" name="Brain Visualization Tool" target="target.mlapps" target-name="Package App">
+  <configuration build-checksum="384400069" file="Z:\30_Oscar_Ortiz\GitHub\New Folder\Brain Visualization Tool.prj" location="Z:\30_Oscar_Ortiz\GitHub\New Folder" name="Brain Visualization Tool" target="target.mlapps" target-name="Package App">
     <param.appname>Brain Visualization Tool</param.appname>
     <param.authnamewatermark>Oscar Ortiz Angulo</param.authnamewatermark>
     <param.email>oscar.ortiz.angulo@gmail.com</param.email>
     <param.company />
-    <param.icon />
-    <param.icons />
+    <param.icon>${PROJECT_ROOT}\Brain Visualization Tool_resources\icon_24.png</param.icon>
+    <param.icons>
+      <file>${PROJECT_ROOT}\Brain Visualization Tool_resources\icon_48.png</file>
+      <file>${PROJECT_ROOT}\Brain Visualization Tool_resources\icon_24.png</file>
+      <file>${PROJECT_ROOT}\Brain Visualization Tool_resources\icon_16.png</file>
+    </param.icons>
     <param.summary>Tool to visualize EEG data. Requies EEGlab.</param.summary>
     <param.description>Tool to visualize epoched data in the time frequency domain. Functionality at this point includes:
 
@@ -17,10 +21,11 @@
 Requirements:
 - Matlab 2022 or higher
 - EEGLAB
+- Signal processing tool
 
 Can be installed by downloading the current packaged "Brain Visualization Tool.mlappinstall" app and following this tutorial (https://www.mathworks.com/videos/packaging-and-installing-matlab-apps-101563.html)</param.description>
-    <param.screenshot>C:\Users\ortizo\AppData\Local\Temp\tp964182a7_b5de_479b_af68_0e471cb5b686.png</param.screenshot>
-    <param.version>0.04</param.version>
+    <param.screenshot>C:\Users\ortizo\AppData\Local\Temp\tpbfd995a4_78af_4bcd_bdb7_5fda40a7022f.png</param.screenshot>
+    <param.version>0.05</param.version>
     <param.products.name />
     <param.products.id />
     <param.products.version />
@@ -31,8 +36,6 @@ Can be installed by downloading the current packaged "Brain Visualization Tool.m
     <param.guid>c70ba6d3-9375-4e6a-9c8a-66322203e1b6</param.guid>
     <unset>
       <param.company />
-      <param.icon />
-      <param.icons />
       <param.products.name />
       <param.products.id />
       <param.products.version />
@@ -747,7 +750,7 @@ Can be installed by downloading the current packaged "Brain Visualization Tool.m
     <fileset.resources />
     <fileset.package />
     <build-deliverables>
-      <file location="Z:\30_Oscar_Ortiz\GitHub" name="bigbrain" optional="false">Z:\30_Oscar_Ortiz\GitHub\bigbrain</file>
+      <file location="Z:\30_Oscar_Ortiz\GitHub" name="New Folder" optional="false">Z:\30_Oscar_Ortiz\GitHub\New Folder</file>
     </build-deliverables>
     <workflow />
     <matlab>
