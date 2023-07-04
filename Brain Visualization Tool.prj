@@ -1,5 +1,5 @@
 <deployment-project plugin="plugin.apptool" plugin-version="1.0">
-  <configuration build-checksum="384400069" file="Z:\30_Oscar_Ortiz\GitHub\New Folder\Brain Visualization Tool.prj" location="Z:\30_Oscar_Ortiz\GitHub\New Folder" name="Brain Visualization Tool" target="target.mlapps" target-name="Package App">
+  <configuration build-checksum="954058624" file="Z:\30_Oscar_Ortiz\GitHub\New Folder\Brain Visualization Tool.prj" location="Z:\30_Oscar_Ortiz\GitHub\New Folder" name="Brain Visualization Tool" target="target.mlapps" target-name="Package App">
     <param.appname>Brain Visualization Tool</param.appname>
     <param.authnamewatermark>Oscar Ortiz Angulo</param.authnamewatermark>
     <param.email>oscar.ortiz.angulo@gmail.com</param.email>
@@ -24,8 +24,8 @@ Requirements:
 - Signal processing tool
 
 Can be installed by downloading the current packaged "Brain Visualization Tool.mlappinstall" app and following this tutorial (https://www.mathworks.com/videos/packaging-and-installing-matlab-apps-101563.html)</param.description>
-    <param.screenshot>C:\Users\ortizo\AppData\Local\Temp\tpbfd995a4_78af_4bcd_bdb7_5fda40a7022f.png</param.screenshot>
-    <param.version>0.05</param.version>
+    <param.screenshot>C:\Users\ortizo\AppData\Local\Temp\tp900258e7_c135_44ef_8491_80d2ab56762f.png</param.screenshot>
+    <param.version>0.051</param.version>
     <param.products.name />
     <param.products.id />
     <param.products.version />
