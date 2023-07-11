@@ -1,5 +1,5 @@
 <deployment-project plugin="plugin.apptool" plugin-version="1.0">
-  <configuration build-checksum="4021974485" file="Z:\30_Oscar_Ortiz\GitHub\New Folder\Brain Visualization Tool.prj" location="Z:\30_Oscar_Ortiz\GitHub\New Folder" name="Brain Visualization Tool" target="target.mlapps" target-name="Package App">
+  <configuration build-checksum="2556330749" file="Z:\30_Oscar_Ortiz\GitHub\BBT_2\Brain Visualization Tool.prj" location="Z:\30_Oscar_Ortiz\GitHub\BBT_2" name="Brain Visualization Tool" target="target.mlapps" target-name="Package App">
     <param.appname>Brain Visualization Tool</param.appname>
     <param.authnamewatermark>Oscar Ortiz Angulo</param.authnamewatermark>
     <param.email>oscar.ortiz.angulo@gmail.com</param.email>
@@ -24,8 +24,8 @@ Requirements:
 - Signal processing tool
 
 Can be installed by downloading the current packaged "Brain Visualization Tool.mlappinstall" app and following this tutorial (https://www.mathworks.com/videos/packaging-and-installing-matlab-apps-101563.html)</param.description>
-    <param.screenshot>C:\Users\ortizo\AppData\Local\Temp\tp6f1321e1_c290_4659_b78b_e8fc87ecc6d3.png</param.screenshot>
-    <param.version>1.0</param.version>
+    <param.screenshot>C:\Users\ortizo\AppData\Local\Temp\tpe975d153_492a_4170_bd0f_183206f2ce2f.png</param.screenshot>
+    <param.version>1.02</param.version>
     <param.products.name />
     <param.products.id />
     <param.products.version />
@@ -36,7 +36,6 @@ Can be installed by downloading the current packaged "Brain Visualization Tool.m
     <param.guid>c70ba6d3-9375-4e6a-9c8a-66322203e1b6</param.guid>
     <unset>
       <param.company />
-      <param.version />
       <param.products.name />
       <param.products.id />
       <param.products.version />
@@ -744,14 +743,18 @@ Can be installed by downloading the current packaged "Brain Visualization Tool.m
       <file>C:\Users\ortizo\Documents\MATLAB\eeglab2021.1\plugins\ICLabel\pop_iclabel.m</file>
       <file>C:\Users\ortizo\Documents\MATLAB\eeglab2021.1\plugins\ICLabel\run_ICL.m</file>
       <file>C:\Users\ortizo\Documents\MATLAB\eeglab2021.1\plugins\ICLabel\topoplotFast.m</file>
+      <file>${PROJECT_ROOT}\chan_info.mat</file>
       <file>${PROJECT_ROOT}\logo.jpg</file>
       <file>${PROJECT_ROOT}\logoo_light_square.jpg</file>
       <file>${PROJECT_ROOT}\new_color_map_2.mat</file>
     </fileset.depfun>
-    <fileset.resources />
+    <fileset.resources>
+      <file>Z:\30_Oscar_Ortiz\apps\dependencies\channel_structures\chan_info.mat</file>
+      <file>Z:\30_Oscar_Ortiz\apps\dependencies\new_color_map_2.mat</file>
+    </fileset.resources>
     <fileset.package />
     <build-deliverables>
-      <file location="Z:\30_Oscar_Ortiz\GitHub" name="New Folder" optional="false">Z:\30_Oscar_Ortiz\GitHub\New Folder</file>
+      <file location="Z:\30_Oscar_Ortiz\GitHub" name="BBT_2" optional="false">Z:\30_Oscar_Ortiz\GitHub\BBT_2</file>
     </build-deliverables>
     <workflow />
     <matlab>
