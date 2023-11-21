@@ -1,0 +1,66 @@
+<deployment-project plugin="plugin.apptool" plugin-version="1.0">
+  <configuration build-checksum="1932612016" file="Z:\30_Oscar_Ortiz\GitHub\bbt_3\Brain Visualization Tool_1.prj" location="Z:\30_Oscar_Ortiz\GitHub\bbt_3" name="Brain Visualization Tool_1" target="target.mlapps" target-name="Package App">
+    <param.appname>Brain Visualization Tool_1</param.appname>
+    <param.authnamewatermark>Oscar Ortiz Angulo</param.authnamewatermark>
+    <param.email />
+    <param.company />
+    <param.icon />
+    <param.icons />
+    <param.summary>Tool to visualize EEG data. Requies EEGlab.</param.summary>
+    <param.description />
+    <param.screenshot>C:\Users\ortizo\AppData\Local\Temp\tpc5069822_1165_4564_bb4f_9c0b22cf74a6.png</param.screenshot>
+    <param.version>1.10</param.version>
+    <param.products.name />
+    <param.products.id />
+    <param.products.version />
+    <param.platforms />
+    <param.output>${PROJECT_ROOT}</param.output>
+    <param.guid>907f8765-ee28-4a70-865f-c392e8d7c3e8</param.guid>
+    <unset>
+      <param.email />
+      <param.company />
+      <param.icon />
+      <param.icons />
+      <param.description />
+      <param.products.name />
+      <param.products.id />
+      <param.products.version />
+      <param.platforms />
+      <param.output />
+    </unset>
+    <fileset.main>
+      <file>${PROJECT_ROOT}\brainviz_app_V2.mlapp</file>
+    </fileset.main>
+    <fileset.depfun>
+      <file>${PROJECT_ROOT}\Artboard 1@2x.png</file>
+      <file>${PROJECT_ROOT}\chan_info.mat</file>
+      <file>${PROJECT_ROOT}\logoo_light_square.jpg</file>
+      <file>${PROJECT_ROOT}\new_color_map_2.mat</file>
+    </fileset.depfun>
+    <fileset.resources />
+    <fileset.package />
+    <build-deliverables>
+      <file location="Z:\30_Oscar_Ortiz\GitHub" name="bbt_3" optional="false">Z:\30_Oscar_Ortiz\GitHub\bbt_3</file>
+    </build-deliverables>
+    <workflow />
+    <matlab>
+      <root>C:\Program Files\MATLAB\R2022a</root>
+      <toolboxes />
+    </matlab>
+    <platform>
+      <unix>false</unix>
+      <mac>false</mac>
+      <windows>true</windows>
+      <win2k>false</win2k>
+      <winxp>false</winxp>
+      <vista>false</vista>
+      <linux>false</linux>
+      <solaris>false</solaris>
+      <osver>10.0</osver>
+      <os32>false</os32>
+      <os64>true</os64>
+      <arch>win64</arch>
+      <matlab>true</matlab>
+    </platform>
+  </configuration>
+</deployment-project>
