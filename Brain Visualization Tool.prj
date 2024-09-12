@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <deployment-project plugin="plugin.apptool" plugin-version="1.0">
   <configuration build-checksum="105931780" file="Z:\30_Oscar_Ortiz\GitHub\bbt_3\Brain Visualization Tool.prj" location="Z:\30_Oscar_Ortiz\GitHub\bbt_3" name="Brain Visualization Tool" target="target.mlapps" target-name="Package App">
     <param.appname>Brain Visualization Tool</param.appname>
@@ -79,4 +80,86 @@ Can be installed by downloading the current packaged "Brain Visualization Tool.m
       <matlab>true</matlab>
     </platform>
   </configuration>
+=======
+<deployment-project plugin="plugin.apptool" plugin-version="1.0">
+  <configuration build-checksum="105931780" file="Z:\30_Oscar_Ortiz\GitHub\bbt_3\Brain Visualization Tool.prj" location="Z:\30_Oscar_Ortiz\GitHub\bbt_3" name="Brain Visualization Tool" target="target.mlapps" target-name="Package App">
+    <param.appname>Brain Visualization Tool</param.appname>
+    <param.authnamewatermark>Oscar Ortiz Angulo</param.authnamewatermark>
+    <param.email>oscar.ortiz.angulo@gmail.com</param.email>
+    <param.company />
+    <param.icon>${PROJECT_ROOT}\Brain Visualization Tool_resources\icon_24.png</param.icon>
+    <param.icons>
+      <file>${PROJECT_ROOT}\Brain Visualization Tool_resources\icon_48.png</file>
+      <file>${PROJECT_ROOT}\Brain Visualization Tool_resources\icon_24.png</file>
+      <file>${PROJECT_ROOT}\Brain Visualization Tool_resources\icon_16.png</file>
+    </param.icons>
+    <param.summary>Tool to visualize EEG data. Requies EEGlab and signal processing package.</param.summary>
+    <param.description>Tool to visualize epoched data in the time frequency domain. Functionality at this point includes:
+
+- Time domain peak identification and extraction
+- Time frequency decomposition using complex wavelet transform
+- Extraction of ROIs of time frequency decomposition
+- Experimental: Wavelet filter using non-parametric statistic testing
+
+Requirements:
+- Matlab 2020 or higher
+- EEGLAB
+- Signal processing tool
+
+Can be installed by downloading the current packaged "Brain Visualization Tool.mlappinstall" app and following this tutorial (https://www.mathworks.com/videos/packaging-and-installing-matlab-apps-101563.html)</param.description>
+    <param.screenshot>C:\Users\ortizo\AppData\Local\Temp\tp77630381_205c_4251_b4d9_cacefb7e8dd7.png</param.screenshot>
+    <param.version>1.03</param.version>
+    <param.products.name />
+    <param.products.id />
+    <param.products.version />
+    <param.platforms />
+    <param.output>${PROJECT_ROOT}</param.output>
+    <param.guid>c70ba6d3-9375-4e6a-9c8a-66322203e1b6</param.guid>
+    <unset>
+      <param.company />
+      <param.products.name />
+      <param.products.id />
+      <param.products.version />
+      <param.platforms />
+      <param.output />
+    </unset>
+    <fileset.main>
+      <file>${PROJECT_ROOT}\brain_vis_tool_2.mlapp</file>
+    </fileset.main>
+    <fileset.depfun>
+      <file>${PROJECT_ROOT}\chan_info.mat</file>
+      <file>${PROJECT_ROOT}\logo.jpg</file>
+      <file>${PROJECT_ROOT}\logoo_light_square.jpg</file>
+      <file>${PROJECT_ROOT}\new_color_map_2.mat</file>
+    </fileset.depfun>
+    <fileset.resources>
+      <file>Z:\30_Oscar_Ortiz\apps\dependencies\channel_structures\chan_info.mat</file>
+      <file>Z:\30_Oscar_Ortiz\apps\dependencies\new_color_map_2.mat</file>
+    </fileset.resources>
+    <fileset.package />
+    <build-deliverables>
+      <file location="Z:\30_Oscar_Ortiz\GitHub" name="bbt_3" optional="false">Z:\30_Oscar_Ortiz\GitHub\bbt_3</file>
+    </build-deliverables>
+    <workflow />
+    <matlab>
+      <root>C:\Program Files\MATLAB\R2022a</root>
+      <toolboxes />
+    </matlab>
+    <platform>
+      <unix>false</unix>
+      <mac>false</mac>
+      <windows>true</windows>
+      <win2k>false</win2k>
+      <winxp>false</winxp>
+      <vista>false</vista>
+      <linux>false</linux>
+      <solaris>false</solaris>
+      <osver>10.0</osver>
+      <os32>false</os32>
+      <os64>true</os64>
+      <arch>win64</arch>
+      <matlab>true</matlab>
+    </platform>
+  </configuration>
+>>>>>>> 2ee7d27faafb435504e08122d6e2a1767fa955a2
 </deployment-project>
