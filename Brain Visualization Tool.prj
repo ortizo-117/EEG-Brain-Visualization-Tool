@@ -24,7 +24,7 @@ Requirements:
 - Signal processing tool
 
 Can be installed by downloading the current packaged "Brain Visualization Tool.mlappinstall" app and following this tutorial (https://www.mathworks.com/videos/packaging-and-installing-matlab-apps-101563.html)</param.description>
-    <param.screenshot>C:\Users\ortizo\AppData\Local\Temp\tp77630381_205c_4251_b4d9_cacefb7e8dd7.png</param.screenshot>
+    <param.screenshot />
     <param.version>1.03</param.version>
     <param.products.name />
     <param.products.id />
@@ -34,6 +34,7 @@ Can be installed by downloading the current packaged "Brain Visualization Tool.m
     <param.guid>c70ba6d3-9375-4e6a-9c8a-66322203e1b6</param.guid>
     <unset>
       <param.company />
+      <param.screenshot />
       <param.products.name />
       <param.products.id />
       <param.products.version />
@@ -59,7 +60,7 @@ Can be installed by downloading the current packaged "Brain Visualization Tool.m
     </build-deliverables>
     <workflow />
     <matlab>
-      <root>C:\Program Files\MATLAB\R2022a</root>
+      <root>C:\Program Files\MATLAB\R2023b</root>
       <toolboxes />
     </matlab>
     <platform>
