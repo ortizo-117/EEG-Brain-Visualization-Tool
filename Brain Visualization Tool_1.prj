@@ -1,5 +1,5 @@
 <deployment-project plugin="plugin.apptool" plugin-version="1.0">
-  <configuration build-checksum="2542896441" file="Z:\30_Oscar_Ortiz\GitHub\bbt_3\Brain Visualization Tool_1.prj" location="Z:\30_Oscar_Ortiz\GitHub\bbt_3" name="Brain Visualization Tool_1" target="target.mlapps" target-name="Package App">
+  <configuration build-checksum="1312954491" file="Z:\30_Oscar_Ortiz\GitHub\bbt_3\Brain Visualization Tool_1.prj" location="Z:\30_Oscar_Ortiz\GitHub\bbt_3" name="Brain Visualization Tool_1" target="target.mlapps" target-name="Package App">
     <param.appname>Brain Visualization Tool_1</param.appname>
     <param.authnamewatermark>Oscar Ortiz Angulo</param.authnamewatermark>
     <param.email />
@@ -12,8 +12,8 @@
     </param.icons>
     <param.summary>Tool to visualize EEG data. Requies EEGlab.</param.summary>
     <param.description />
-    <param.screenshot>C:\Users\ortizo\AppData\Local\Temp\tpacac515e_b255_44b0_97f5_f0ae6279ad1c.png</param.screenshot>
-    <param.version>1.13</param.version>
+    <param.screenshot>C:\Users\ortizo\AppData\Local\Temp\tp8ec34424_ee3e_4912_ae59_c9100f7afe63.png</param.screenshot>
+    <param.version>1.13.1</param.version>
     <param.products.name />
     <param.products.id />
     <param.products.version />
