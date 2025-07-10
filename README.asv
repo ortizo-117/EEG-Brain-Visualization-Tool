@@ -18,23 +18,21 @@ This tool empowers researchers, clinicians, and students to perform high-level E
 
 **Dynamic Epoch Management**  
 – Update and visualize epochs instantly after filtering or artifact rejection.
-![epoch](single_trial_heat_plot.png)
+![main](single_trial_heat_plot.png)
 
 **Time-Frequency Decomposition**  
 – Generate spectrograms or ERSP maps with Morlet wavelets.
-![tf](tf_decomposition.png)
+![main](tf_decomposition.png)
 
 **Peak Detection and Extraction of Power metrics for Sensory Protocols**  
 – Automatic extraction of peaks from standard tests like:
 - CHEPS (Contact Heat Evoked Potentials)
 - LEPs (Laser Evoked Potentials)
 - SEPs (Somatosensory Evoked Potentials)
-![detection](selecting_roi.png)
 
 **Statistical Filtering**  
 – Apply non-parametric tests, cluster-based corrections, or significance thresholds to results.
-![warm](warm_filter.png)
-![warm_effect](warm_filter_effect.png)
+
 
 **Data Export**  
 – Extract and save cleaned data, peak tables, and time-frequency matrices for downstream use (e.g., R, Python, SPSS).
