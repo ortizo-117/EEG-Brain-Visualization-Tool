@@ -6,6 +6,6 @@ authors:
     orcid: "https://orcid.org/0000-0001-5872-2434"
 title: "EEG Brain-Visualization-Tool"
 version: "1.15.1"
-doi: "10.5281/zenodo.1234567"
+doi: "doi.org/10.5281/zenodo.20561112"
 date-released: "2026-06-05"
 url: "https://github.com/ortizo-117/EEG-Brain-Visualization-Tool"
